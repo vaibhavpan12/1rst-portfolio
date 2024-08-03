@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+.page1 {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+}
+.leftnav {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  width: 60px;
+  padding-left: 50px;
+}
+.leftnav p {
+  font-size: 18px;
+}
+.logoname {
+  color: white;
+  font-family: "Andika", sans-serif;
+}
+.rightnav {
+  width: 50%;
+  height: 100%;
+}
+.menunav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menunav ul {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.menunav ul li a {
+  color: rgba(255, 255, 255, 0.486);
+  text-decoration: none;
+  font-family: "Andika", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.menunav ul li a:hover {
+  color: white;
+}
+.mydetails {
+  width: 100%;
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maincontant {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  height: 60%;
+}
+
+.rightcontant {
+  width: 50%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.profestion h2 {
+  font-size: 20px;
+  font-family: inter;
+  font-weight: 200;
+}
+.name {
+  font-size: 70px;
+  font-family: inter;
+  font-weight: 700;
+}
+.Aboutme {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #ffffffa1;
+  font-family: inter;
+}
+.buttons {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.buttons #cv {
+  width: 45%;
+  padding: 10px;
+  border: 2px solid rgb(0, 174, 255);
+  background-color: transparent;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.buttons #cv:active {
+  background-color: rgb(0, 174, 255);
+}
+.buttons #cv a {
+  color: white;
+  text-decoration: none;
+  font-family: inter;
+  font-size: 15px;
+}
+.buttons #contact {
+  width: 45%;
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.452);
+  background-color: transparent;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.buttons #contact:active {
+  background-color: rgba(255, 255, 255, 0.452);
+}
+.buttons #contact a {
+  color: white;
+  text-decoration: none;
+  font-family: inter;
+  font-size: 15px;
+}
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.205);
+}
+.page2 {
+  width: 100%;
+  height: auto;
+  background-color: #cf0000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  position: relative;
+}
+
+.page2 h2 {
+  padding: 1vw 2vw;
+  font-size: 2vw;
+  border: 1px solid gray;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+#main-gc {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.one-blank {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  gap: 2vw;
+  font-size: 2vw;
+}
+
+.main-section {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+.skills {
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2vh;
+  padding: 0vw 5vw;
+}
+
+.main-section h2 {
+  padding: 1vw 2vw;
+  font-size: 2vw;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  font-weight: 400;
+  filter: blur(10px);
+  opacity: 0;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#main-gc h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: inter;
+  top: 100px;
+  left: 45%;
+  position: static;
+  opacity: 0;
+}
+
+.page3 {
+  width: 100%;
+  height: 200vh;
+  background-color: rgb(0, 0, 0);
+  /* transform: translateY(0px); */
+}
+.nameanimaiton {
+  width: 100%;
+  display: flex;
+  position: relative;
+  color: white;
+  font-family: inter;
+}
+.nameanimaiton h1 {
+  position: absolute;
+  font-size: 50px;
+  top: 30px;
+  left: 40%;
+  color: rgba(255, 255, 255, 0.158);
+}
+.nameanimaiton h2 {
+  left: 40%;
+  position: absolute;
+  font-size: 50px;
+  top: 30px;
+  color: white;
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
+  white-space: nowrap;
+}
+.projects {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+.startEndline {
+  position: absolute;
+  top: 50px;
+  width: 10px;
+  height: 150vh;
+  background-color: rgba(255, 255, 255, 0.068);
+  border-radius: 100px;
+}
+.spacefull {
+  position: absolute;
+
+  width: 10px;
+  height: 0vh;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  border-radius: 100px;
+}
+.projectinmg {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.projectinmg img {
+  width: 500px;
+  border-radius: 20px;
+}
+#projectinmg1 {
+  width: 40%;
+}
+.starbucks {
+  position: absolute;
+
+  left: 0px;
+  transition: 0.5s;
+  opacity: 0;
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 0.247);
+  padding: 30px;
+  border-radius: 20px;
+  top: 50px;
+}
+.star_details p {
+  color: rgb(255, 255, 255);
+  font-family: inter;
+}
+.star_details span a {
+  color: rgb(2, 133, 255);
+  font-family: inter;
+}
+.shoppers {
+  position: absolute;
+
+  left: 0;
+  top: 600px;
+  transition: 0.5s;
+  opacity: 0;
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 0.247);
+  padding: 30px;
+  border-radius: 20px;
+}
+.shopper_details p {
+  color: rgb(255, 255, 255);
+  font-family: inter;
+}
+.shopper_details span a {
+  color: rgb(2, 133, 255);
+  font-family: inter;
+}
+#projectinmg2 {
+  width: 40%;
+}
+.flaashnet {
+  position: absolute;
+  top: 350px;
+  right: 0;
+  transition: 0.5s;
+  opacity: 0;
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 0.247);
+  padding: 30px;
+  border-radius: 20px;
+}
+.flaashnet_details p {
+  color: rgb(255, 255, 255);
+  font-family: inter;
+}
+.flaashnet_details span a {
+  color: rgb(2, 133, 255);
+  font-family: inter;
+}
+
+.gemini {
+  position: absolute;
+  top: 850px;
+  right: 0;
+  transition: 0.5s;
+  opacity: 0;
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 0.247);
+  padding: 30px;
+  border-radius: 20px;
+}
+.gemini_details p {
+  color: rgb(255, 255, 255);
+  font-family: inter;
+}
+.gemini_details span a {
+  color: rgb(2, 133, 255);
+  font-family: inter;
+}
+.swt {
+  position: absolute;
+  left: 0;
+  top: 1100px;
+  transition: 0.5s;
+  opacity: 0;
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 0.247);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.swt p {
+  color: rgb(255, 255, 255);
+  font-family: inter;
+}
+.swt span a {
+  color: rgb(2, 133, 255);
+  font-family: inter;
+}

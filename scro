@@ -1,0 +1,113 @@
+.page2 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000ef;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  position: relative;
+}
+
+.page2 h2 {
+  padding: 1vw 2vw;
+  font-size: 2vw;
+  border: 1px solid gray;
+}
+.skillsnameanimaiton {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  position: absolute;
+  color: white;
+  font-family: inter;
+  top: 100px;
+}
+.skillsnameanimaiton h1 {
+  position: absolute;
+  font-size: 50px;
+  top: 0;
+  left: 40%;
+  color: rgba(255, 255, 255, 0.068);
+}
+.skillsnameanimaiton h3 {
+  left: 40%;
+  position: absolute;
+  font-size: 50px;
+  top: 0px;
+  color: white;
+  width: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.pagewidth {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+}
+.layer {
+  display: flex;
+}
+.upper #HTML,
+#CSS,
+#JAVASCRIPT,
+#JAVA {
+  width: 250px;
+  text-align: center;
+  border-radius: 50px;
+  padding: 20px;
+  font-family: inter;
+  text-transform: uppercase;
+  filter: blur(20px);
+  opacity: 0;
+}
+.secondlayer #PAYTHON,
+#PHP,
+#MYSQL {
+  width: 250px;
+  text-align: center;
+  border-radius: 50px;
+  padding: 20px;
+  font-family: inter;
+  text-transform: uppercase;
+  filter: blur(20px);
+  opacity: 0;
+}
+.threedlayer #REACT,
+#FIGMA {
+  width: 250px;
+  text-align: center;
+  border-radius: 50px;
+  padding: 20px;
+  font-family: inter;
+  text-transform: uppercase;
+  filter: blur(20px);
+  opacity: 0;
+}
+.threedlayer #BLENDER {
+  width: 250px;
+  text-align: center;
+  border-radius: 50px;
+  padding: 20px;
+  font-family: inter;
+  text-transform: uppercase;
+  filter: blur(20px);
+  opacity: 0;
+}
+
+.skillsnameanimaiton{
+    width: 100%;
+    height: 10vh;
+}
+.skillsnameanimaiton h1{
+    color: white;
+    font-size: 50px;
+}
